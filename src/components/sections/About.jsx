@@ -29,16 +29,18 @@ const About = () => {
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            About Us
+            About Me
           </h2>
           <div className="rounded-xl p-8 border-white/10 border">
             <p className="text-gray-300 text-xl mb-6 text-center">
-              Inspired by the stars, we craft elegant, responsive, and scalable
-              front-end websites that deliver exceptional user experiences.
+              Finding balance between a clean function and a quiet interface. I build websites that performs without the noise.
             </p>
             <div className="gap-6">
               <div className="rounded-xl p-6 transition-all">
-                <h3 className="text-xl text-center font-bold mb-7"> Technologies</h3>
+                <h3 className="text-xl text-center font-bold mb-7">
+                  {" "}
+                  Technologies
+                </h3>
                 <div className="flex flex-wrap items-center justify-center gap-4">
                   <motion.div
                     variants={iconVariants(2.5)}
